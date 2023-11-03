@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    margin: 0;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    background-color: blanchedalmond;
+    position: sticky;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: gray;
+    width: 100%;
+}
+
+.header .logo:hover{
+    color: blue;
+}
+.header .navbar a{
+    padding: 10px;
+    color: rgb(66, 9, 38);
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.header .navbar a:hover{
+     color:     blue;
+     background-color: aqua;
+}
+.header .navbar input{
+    border-radius: 5px;
+    height: 30px;
+    border: 1px;
+}
+
+
+/* project */
+.projects{
+    padding: 10px;
+}
+.projects h1{
+    text-transform: capitalize;
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+
+/* footer css */
+.footer{
+    background-color: skyblue;
+    padding: 10px;
+}
+.footer .row .col-md-3 h5{
+    color: orangered;
+
+}
+.footer .row .col-md-3 a{
+    text-decoration: none;
+    color: white;
+}
+.footer .row .col-md-3 a:hover{
+    color: blue;
+}
+.footer .reserved{
+    text-align: center;
+    padding-top: 1rem;
+    border-top: 5px solid white;
+    align-items: center;
+}

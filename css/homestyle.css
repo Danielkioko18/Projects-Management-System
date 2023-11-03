@@ -1,0 +1,189 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html,
+body {
+	box-sizing: border-box;
+	height: 100%;
+	font-size: 100%;
+	background: #F8F8FF;
+	text-decoration: none;
+
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	box-sizing: border-box;
+	height: 100%;
+	font-size: 100%;
+	background: #F8F8FF;
+	text-decoration: none;
+	height: 100%;
+}
+
+.header {
+	width: 40%;
+	margin: 30px auto 0px;
+	color: white;
+	background: #5F9EA0;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+
+.container {
+	z-index: 10;
+	position: fixed;
+	box-sizing: border-box;
+	float: left;
+	background: #0099FF;
+	border-right: 1px solid black;
+	display: inline-block;
+	width: 20%;
+	min-height: 100%;
+	font-family: calibri;
+
+}
+
+.profile_img img {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	float: center;
+	border: 1px solid black;
+	border-radius: 50%;
+}
+
+.profile_info div {
+	display: inline-block;
+	margin: 5px;
+	float: left;
+
+}
+
+.profile_info div strong {
+	display: inline-block;
+	margin-left: 10px;
+	float: left;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.profile_info i {
+	font-size: 23px;
+}
+
+#title {
+	margin-left: 15px;
+	font-family: clibri;
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.profile_info div a {
+	font-size: 22px;
+	font-weight: bold;
+	margin-left: 50px;
+	font-style: italic;
+}
+
+#fa-fa-sign-out {
+	margin-left: 5px;
+}
+
+.col-sm {
+	float: left;
+}
+
+.actions ul {
+	list-style: none;
+	flex-direction: column;
+	;
+	text-decoration: none;
+
+}
+
+.actions ul li {
+	justify-content: space-around;
+	padding: 7px;
+	border-bottom: 1px solid #33ACFF;
+	width: auto;
+}
+
+.actions ul li i {
+	float: left;
+}
+
+.actions ul li a {
+	font-family: sans-serif;
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	margin-left: 10px;
+	font-weight: bolder;
+}
+
+.actions ul li:hover {
+	background-color: darkblue;
+}
+
+.actions ul li:hover a {
+	color: white;
+}
+
+
+#dash {
+	background-color: darkblue;
+}
+
+.active a {
+	color: darkblue;
+}
+
+/* main container*/
+.dashboard {
+	background-color: #AFEDFB;
+	border-radius: 5px;
+	margin-left: 20%;
+	position: fixed;
+	width: 80%;
+	height: 100%;
+	z-index: 9;
+	overflow-y: scroll;
+}
+
+.dashboard h4 {
+	margin-left: 100px;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: sans-serif;
+	color: rebeccapurple;
+}
+
+.dashboard h4 strong {
+	color: orange;
+	font-family: Bell MT;
+	font-style: italic;
+}
+
+.form {
+	box-shadow: 5px 3px 10px #888888;
+	width: 37%;
+	border: 2px solid blue;
+	margin-left: 20%;
+	border-radius: 8px;
+}
+
+form label {
+	font-size: 20px;
+	font-weight: bold;
+}

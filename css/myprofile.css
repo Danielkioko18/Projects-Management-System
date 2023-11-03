@@ -1,0 +1,46 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	box-sizing: border-box;
+	height: 100%;
+	font-size: 100%;
+	background: #F8F8FF;
+	text-decoration: none;
+	height: 100%;
+}
+
+#myprofile {
+	background-color: darkblue;
+}
+
+.profile {
+	background-color: none;
+	margin-left: 20%;
+	position: fixed;
+	width: 80%;
+	height: 100%;
+	z-index: 9;
+	overflow-y: scroll;
+}
+
+.row h3 {
+	color: black;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+.col label {
+	color: darkblue;
+	font-weight: bold;
+}
+
+td {
+	font-weight: bold;
+}
+
+thead {
+	color: blue;
+}
